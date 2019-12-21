@@ -4,7 +4,7 @@ RGB_t rgb[8] = { 0 }; //1 for 1 pixel
 
 void ds(uint32_t seconds) { // delay some seconds
   for (uint32_t i = 0; i < seconds*2; i++) {
-    delay(505);
+    delay(520);
   }
 }
 
